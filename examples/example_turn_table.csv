@@ -1,0 +1,7 @@
+order,speaker,title,group,role,section,text
+1,Operator,,,operator,presentation,"Good morning, and welcome to the Globex first quarter 2024 earnings call."
+2,Jane Roe,Chief Executive Officer,executives,CEO,presentation,"Thank you, and good morning, everyone. We had a strong quarter, and demand remained healthy across our regions."
+3,John Doe,Chief Financial Officer,executives,CFO,presentation,"Revenue grew 6% year over year. Gross margin was 41.2%, up 80 basis points."
+4,Operator,,,operator,qa,"[Operator Instructions] Our first question comes from Ann Lee with Example Securities."
+5,Ann Lee,Example Securities LLC,analysts,analyst,qa,"Thanks for taking my question. How should we think about pricing in the second half?"
+6,Jane Roe,Chief Executive Officer,executives,CEO,qa,"We expect pricing to remain stable, although input costs are still elevated."

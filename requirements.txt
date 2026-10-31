@@ -1,0 +1,22 @@
+# Core and verification suite:  python voice_text_congruence.py --test
+# These four are enough to run every check that does not need a GPU, a model, or data.
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+pymupdf>=1.24
+
+# Model passes:  --call / --sample / --manifest / --llm
+# A CUDA GPU is recommended but not required; --device falls back to CPU automatically.
+# For NVIDIA Blackwell cards (RTX 50xx) install a CUDA 12.8+ build of torch first:
+#     pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7
+transformers>=4.51
+tokenizers>=0.21
+huggingface_hub>=0.30
+safetensors>=0.4
+faster-whisper>=1.1
+soundfile>=0.12        # bundles an MP3-capable libsndfile; other formats fall back to PyAV
+matplotlib>=3.8        # figures written by --report
+
+# Optional: the three direct comparisons against Praat in the verification suite
+# praat-parselmouth>=0.4

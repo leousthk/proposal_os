@@ -1,0 +1,4 @@
+audio,transcript,call_id,company,call_date,fiscal_year,fiscal_quarter,gvkey,ticker
+recordings/acme/ACME_2024Q1.mp3,transcripts/acme/ACME_2024Q1.pdf,ACME_2024Q1,Acme Corporation,2024-04-25,2024,1,001234,ACME
+recordings/acme/ACME_2024Q2.mp3,transcripts/acme/ACME_2024Q2.pdf,ACME_2024Q2,Acme Corporation,2024-07-30,2024,2,001234,ACME
+recordings/globex/GLBX_2024Q1.wav,transcripts/globex/GLBX_2024Q1.csv,GLBX_2024Q1,Globex Inc.,2024-05-02,2024,1,005678,GLBX

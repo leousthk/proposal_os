@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Pipeline outputs (regenerate with --call / --sample / --manifest / --report)
+vtc_outputs/
+outputs/
+out/
+*.csv.gz
+*.json.gz
+summary.json
+figures/
+logs/
+
+# Never commit source recordings or vendor transcripts: they are licensed data
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.mp4
+*.pdf
+!examples/*.pdf
+
+# Model caches
+.cache/
+hf_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
